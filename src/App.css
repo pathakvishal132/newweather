@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wetherBg {
+  background: url("xyz.webp");
+  height: 50vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  color: rgb(7, 14, 5);
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wetherResultBox {
+  margin: auto;
+  align-items: center;
+}
+
+.weathorIcon {
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+}
+
+.weathorCity {
+  font-size: 35px;
+}
+
+.weatherVisibility {
+  font-size: 35px;
+}
+
+.weatherHumidity {
+  font-size: 35px;
+}
+
+.weathorTemprature {
+  font-size: 55px;
+  font-weight: 700;
 }
